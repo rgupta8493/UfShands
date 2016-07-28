@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="The Computer algorithms have calculated that probability risk scores for this pateint are:"
+            android:id="@+id/textView8"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Admission to Intensive Care Unit for longer than 48 hrs !"
+            android:id="@+id/textView15"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp" />
+        <SeekBar
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="12dp"
+            android:max="100"
+            android:id="@+id/custom_seekbar5"
+            android:thumb="@drawable/thumb"
+            android:progressDrawable="@drawable/custom_progress"
+            android:progress="60"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Chances are 61%"
+            android:id="@+id/textView16"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Acute kidney Injury(>=50% change in postoperative serum creatinine)?"
+            android:id="@+id/textView17"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="12dp"
+            android:max="100"
+            android:id="@+id/custom_seekbar6"
+            android:thumb="@drawable/thumb"
+            android:progressDrawable="@drawable/custom_progress"
+            android:progress="50"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Chances are 50%"
+            android:id="@+id/textView18"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Main factors contributing to this patient risk "
+                android:id="@+id/textView19"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_marginTop="12dp"
+                android:textStyle="bold|italic"
+                android:layout_marginRight="5dp"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Age"
+                    android:id="@+id/textView20"
+                    android:layout_marginTop="30dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Indicator of receiving ACE \ninhibitors on admission day"
+                    android:id="@+id/textView21"
+                    android:layout_marginTop="60dp"
+                    android:textSize="14sp"
+                    android:layout_alignParentStart="false"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Indicator of receiving Antiemetic\non admission day"
+                    android:id="@+id/textView22"
+                    android:layout_marginTop="110dp"
+                    android:textSize="14sp"
+                    android:layout_alignParentStart="false"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="cancer"
+                    android:id="@+id/textView23"
+                    android:layout_marginTop="160dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Median Income"
+                    android:id="@+id/textView24"
+                    android:layout_marginTop="210dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Indicator of Receiving Bicarbonate\non admission day"
+                    android:id="@+id/textView78"
+                    android:layout_marginTop="240dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Diabetes Without Complications"
+                    android:id="@+id/textView26"
+                    android:layout_marginTop="290dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Indicator of receiving Naloxine\non admission day"
+                    android:id="@+id/textView28"
+                    android:layout_marginTop="320dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Indicator of receiving aspirin\non admission day"
+                    android:id="@+id/textView30"
+                    android:layout_marginTop="370dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Gender"
+                    android:id="@+id/textView29"
+                    android:layout_marginTop="420dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:text="58"
+                    android:id="@+id/editText30" />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner1"
+                    android:layout_marginTop="7dp"
+                    android:entries="@array/decision"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner"
+                    android:layout_marginTop="17dp"
+                    android:entries="@array/decision"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner2"
+                    android:layout_marginTop="27dp"
+                    android:entries="@array/decision"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:text="300000"
+                    android:ems="10"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/editText31"
+                    />
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner3"
+
+                    android:entries="@array/decision"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner4"
+                    android:layout_marginTop="23dp"
+                    android:entries="@array/decision"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner5"
+                    android:layout_marginTop="20dp"
+                    android:entries="@array/decision"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner6"
+                    android:layout_marginTop="20dp"
+                    android:entries="@array/decision"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner7"
+                    android:layout_marginTop="20dp"
+                    android:entries="@array/gender"/>
+
+
+            </LinearLayout>
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Submit FeedBack"
+                android:id="@+id/bsubmitFeed"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

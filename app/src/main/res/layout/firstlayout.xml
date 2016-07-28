@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Your patient is 58 year old white male with history of diabetes,hypertension and cancer.He is scheduled to have elective non-cardiac surgery specifically heart valve replacement by Dr.XX.He was admitted to hospital 2days ago.His admission laboratories values are Hgb 8.5g/dl"
+            android:id="@+id/textView8"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp" />
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="On the scale from 0(no chance) to 100(Certainity)what is your estimate of the likelihood for this patient to develop following complications in the first seven days after surgery?"
+        android:id="@+id/textView9"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginRight="5dp"
+        android:textSize="14sp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Admission to Intensive Care Unit for longer than 48 hrs !"
+            android:id="@+id/textView10"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="14dp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp" />
+        <SeekBar
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:max="100"
+            android:id="@+id/custom_seekbar3"
+            android:thumb="@drawable/thumb"
+            android:progressDrawable="@drawable/custom_progress"
+            android:progress="60"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Your Prediction is 60%"
+            android:id="@+id/textView11"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Acute kidney Injury(>=50% change in postoperative serum creatinine)?"
+            android:id="@+id/textView12"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="14dp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="2dp"
+            android:max="100"
+            android:id="@+id/custom_seekbar4"
+            android:thumb="@drawable/thumb"
+            android:progressDrawable="@drawable/custom_progress"
+            android:progress="80"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Your Prediction is 80%"
+            android:id="@+id/textView13"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold|italic"
+            android:layout_marginRight="5dp"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/bsubmit1"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
